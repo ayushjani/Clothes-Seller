@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--Uncomment this to use Dark mode for our app -->
+<!--<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">-->
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+
+
+    <style name="CategoryCardStyle">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="cardElevation">10dp</item>
+        <item name="cardCornerRadius">10dp</item>
+
+    </style>
+
+    <style name="TextViewsCategory">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="SplitDivider">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+</resources>

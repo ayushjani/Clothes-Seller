@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SearchActivity"
+    android:background="@color/colorPrimary">
+
+
+    <SearchView
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="SEARCH STORE CATALOGUE"
+        android:iconifiedByDefault="false">
+    </SearchView>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Sorry, we were not able to find what you were searching for."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:id="@+id/empty_filter_text"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp">
+
+    </TextView>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/searchList">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
